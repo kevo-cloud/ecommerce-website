@@ -1,0 +1,340 @@
+<html>
+<head>
+	<title>Electronic</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<style>
+		*{
+	margin:0px;
+	padding:0px;
+}
+		#header{
+	 background:black;
+	display:grid;
+	height:10vh;
+	width:100%;
+	grid-template-columns: auto 60% auto;
+	position:relative;
+	}
+#logo{
+	color:white;
+	margin:20px;
+}
+ #nav{
+  	margin:auto;
+  }
+  
+
+#nav  li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#nav ul  li a{
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+  margin:20px auto;
+  position: relative;
+  display: block;
+}
+#nav ul li a:hover {
+  color: green;
+
+
+	
+}
+#form
+{
+	margin:20px;
+	display:flex;
+	margin-left:50%; 
+}
+input[type="text"]{
+	border-radius:25px 0 0 25px;
+	border:1px solid;
+	outline:none;
+	text-align:center;
+}
+input[type="submit"]{
+	border-radius:0 25px 25px 0;
+	border:none;
+	outline:none;
+	background:green;
+	color:white;
+	margin-right:50%; 
+}
+#menu{
+	display:grid;
+	grid-template-columns:60% auto;
+}
+ ul{
+	list-style:none;
+}
+
+ ul li
+{	
+list-style-type:none;
+display:inline-block;
+position:relative;
+}
+
+ ul li a
+{
+	text-decoration: none;
+	color:black;
+	display:block;
+	transition:.2s linear;
+	margin:30px;
+}
+ ul li a:hover
+{
+    color: green;
+}
+* {
+      box-sizing: border-box;
+    }
+#product
+{
+	background:blue;
+	grid-template-columns:80% auto;
+	display:grid;
+}
+#left{
+	background:white;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+#content{
+	border:1px solid;
+	width:250px;
+	height:300px;
+	margin:20px;
+	border-radius:30px;
+	overflow:hidden;
+	display:grid;
+	grid-template-rows:70% auto;
+}
+#image img:hover{
+	transform:scale(1.5);
+}
+#image{
+	overflow:hidden;
+}
+#image img{
+	 width:100%;
+	height:200%;
+	translate:3s;
+}
+#cont-img li {
+	list-style:none;
+	background:green;
+	border-radius:30px;
+	padding:8px;
+}
+#cont-img li a{
+	text-decoration:none;
+	padding:8px;
+	color:black;
+	border-radius:30px;
+}
+#cont-img li a:hover{
+
+color:white;
+}
+#cont-img{
+	display:grid;
+	place-items:center;
+}
+#right{
+	background:#fff;
+	height:100vh;
+	border:1px solid;
+	border-radius:30px;
+	margin:20px;
+}
+
+
+#footer{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	height:40vh;
+	background:grey;
+}
+#footer ul li a{
+	text-decoration:none;
+	margin:20px auto;
+	padding:8px;
+	transition:.3s linear;
+}
+#footer ul li a:hover{
+	color:green;
+}
+
+
+}
+</style>
+</head>
+	<body>
+<header id="header">
+<h1 id="logo">electronics</h1>
+<nav id="nav">
+	<ul>
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="properties.html">properties</a></li>
+		<li><a href="Signin.html">Signin</a></li>
+			<li><a href="Password.html">Password</a></li>
+		</ul>
+	</nav>
+	
+
+</header>
+<div id="menu">
+	<ul>
+<li><a href="Games.html">Games</a></li>
+<li><a href="Playstations.html">Playstations</a></li>
+     		<li><a href="Playingpads.html">Playingpads</a></li>
+     			</ul>
+
+<form id="form">
+  <input type="text" placeholder="type to search" name="googlesearch">
+  <input type="submit" name="submit" value="search">
+</form>
+</div>
+<div id="gallery">
+	<div id="photos">
+<div id="slider" class="single" style="height:100vh;width:100%;overflow: hidden;">
+                    <div style="height: 100%; width:100%;"><img src="images/apples.jpg" width="100%" height="100vh"
+                            style="height:100%; margin: auto; object-fit: cover;"></div>
+                    <div style="height: 100%; width:100%;"><img src="images/apple.jpg" width="100%" height="100vh"
+                            style="height:100%; margin: auto; object-fit: cover;"></div>
+                    <div style="height: 100%; width:100%;"><img src="images/cellphones.jpg" width="100%" height="100vh"
+                            style="height:100%; margin: auto; object-fit: cover;"></div>
+                </div>
+</div>
+</div>
+<nav>
+<section id="product">
+	<div id="left">
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+<div id="content">
+<div id="image">
+<img src="laptop.png" alt="laptop">
+</div>
+<div id="cont-img">
+	<p>Laptop</p>
+<p1>price 500</p1>
+<li><a href="#purchase">purchase</a></li>
+</div>
+</div>
+</div>
+<div id="right">
+</div>
+</section>
+</nav>
+<footer>
+<div id="footer">
+	<div id="navi">
+		<ul>
+<li><a href="register.html">register</a></li>
+<li><a href="login.html">login</a></li>
+</ul>
+</div>
+<p>welcome</p>	
+</div>
+</footer>
+<script src="jsquery/jquery.min.js"></script>
+        <script src="jsquery/slick.min.js"></script>
+        <script>
+        $('.single').slick({
+        dots:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+        infinite:true,
+        speed:500,
+        fade:true,
+        cssEase:'linear'
+    });
+</script>
+</body>
+</html>
